@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    display: flex;
+    position: static;
+    align-items: center;
+    height: 65px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo{
+    width: 114px;
+    height: 50px;
+}
+
+.logo{
+    background-image: url("/imges/amzan-logo.png");
+    width: 100%;
+    height: 40px;
+    background-size: cover;
+    margin-top: 10px;
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.first-add{
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 20px;
+}
+
+.second-add{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Box3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    display: flex;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    /* border: none; */
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box4,5 */
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-opt a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    
+}
+
+.panel-opt{
+    width: 75%;
+    font-size: 0.85rem;
+    
+}
+
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-image: url("/imges/Background.jpg");
+    height: 300px;
+    /* width: 1500px; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* .hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero-message a{
+    text-decoration: none;
+    color: #007185;
+} */
+
+
+/* shop section */
+
+
+.shop-sec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch; /* Keeps all boxes the same height */
+    background-color: #e2e7e6;
+    padding: 20px 0;
+    gap: 20px; /* Add spacing between boxes */
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: white;
+    width: 23%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* Grid of 4 images inside a box */
+.images4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+    gap: 10px;
+}
+
+.content {
+    width: 48%;
+}
+
+.underImg {
+    width: 100%;
+    height: 85px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+/* Add spacing between rows inside image grid */
+.mar {
+    margin-bottom: 0;
+}
+
+/* Bottom paragraph link */
+.bottom-p {
+    color: #007185;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+/* 1 image div */
+.box-image{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content1 p{
+    color: #007185;
+}
