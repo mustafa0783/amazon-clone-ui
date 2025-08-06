@@ -14,10 +14,8 @@ This is a simple static **Amazon UI Clone** built using HTML and CSS. The goal o
 amazon-clone-ui/
 ├── index.html
 ├── style.css
-├── images/
-│   ├── amazon-logo.png
-│   └── other-product-images.png
-```
+│── amazon-logo.png
+│── other-product-images.png
 
 ## 💡 Features
 
@@ -31,8 +29,13 @@ amazon-clone-ui/
 ![alt text](<Screenshot (299).png>)
 
 
-## 🚧 Still Working On
-
+## 🚧 Still Working On 
+- ✅ Header and navbar
+- ✅ Hero image
+- ✅ Product boxes
+- ❌ Responsive layout
+- ❌ Footer section
+- ❌ Full product catalog
 - Adding more sections like sidebar, detailed product cards
 - Making it fully responsive for all screen sizes
 - Adding JS functionality (like cart, search, etc.)
