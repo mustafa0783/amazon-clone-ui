@@ -30,7 +30,6 @@ amazon-clone-ui/
 ![alt text](<Screenshot (297).png>)
 ![alt text](<Screenshot (299).png>)
 
-*(Add screenshots here if you want)*
 
 ## 🚧 Still Working On
 
