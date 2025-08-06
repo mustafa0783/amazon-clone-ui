@@ -251,3 +251,83 @@ span{
 .box-content1 p{
     color: #007185;
 }
+
+
+/* fotoer section */
+
+footer{
+    margin-top: 15px;
+}
+
+.footerPanel1{
+    display: flex;
+    height: 50px;
+    background-color: #37475a;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.footerPanel2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+}
+ul a{
+    
+    display: block;
+    text-decoration: none;
+    color: #dddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+ul p{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.footerPanel3{
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    border-top: 0.4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("amzan-logo.png");
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    margin-top: 10px;
+    width: 140px;
+
+}
+
+.footerPanel4{
+    height: 80px;
+    background-color: #131a22;
+    color: white;
+     font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages{
+   padding-top: 20px;
+   
+}
+
+.footerPanel4 a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    padding-top: 5px;
+}
