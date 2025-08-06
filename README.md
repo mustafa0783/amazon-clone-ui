@@ -27,6 +27,8 @@ amazon-clone-ui/
 - Amazon-style color theme
 
 ## 📷 Screenshots
+![alt text](<Screenshot (297).png>)
+![alt text](<Screenshot (299).png>)
 
 *(Add screenshots here if you want)*
 
