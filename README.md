@@ -59,4 +59,3 @@ This project is for **educational purposes only** and is not affiliated with Ama
 ---
 
 👨‍💻 Built with ❤️ by [Mustafa Dawood](https://github.com/mustafa0783)
-AFTAB ALI 
